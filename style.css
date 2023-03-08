@@ -1,0 +1,211 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+  background-color: black;
+  border-radius: 30px;
+  
+}
+.navbar ul{
+  overflow: auto;
+}
+.navbar li{
+  float:left;
+  list-style: none; 
+  margin: 13px 20px;
+  
+}
+.navbar li a{
+  padding: 3px 3px;
+  text-decoration: none;
+  color: white;
+}
+.navbar li a:hover{
+  color: #FD6802;
+}
+.search{
+  float: right;
+  color: white;
+  padding: 12px 75px;
+}
+.navbar input{
+  border: 2px solid black;
+  border-radius: 14px;
+  padding: 3px 17px;
+  width: 129px;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 10px;
+    padding: 10px;
+    background-color: linen;
+  
+  }
+  
+  .grid-container > div {
+    text-align: left;
+    padding: 0;
+    font-size: 20px;
+
+  }
+  .heading{
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  button{
+    border: none;
+    background-color: #FD6802;
+    color: white;
+    padding: 15px;
+    border-radius: 2px;
+    width: 30%;
+    font-weight: bold;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 10px;
+    padding: 0;
+    background-color: whitesmoke ;
+  
+  }
+  
+  .grid> div {
+    text-align: left;
+    padding: 0;
+    font-size: 15px;
+
+  }
+  .head{
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-top: 10%;
+  }
+  .anim{
+    margin-left: 10%;
+  }
+  table, td {
+   border: none;
+text-align: left;
+  }
+ .section{
+  text-align: center;
+  background-color: linen;
+
+ }
+ .container {
+  display: grid;
+  height: 200px;
+ text-align: center;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 0;
+  background-color:linen;
+  padding: 40px;
+  margin: 20px;
+}
+
+.container > div {
+ background-color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin: 20px;
+}
+.sect{
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.fancyboxouter{
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.fancybox{
+  width: 80%;
+  height: auto;
+margin: 0 auto;
+  
+}
+.fancybox img{
+  width: 300px;
+  height: 200px;
+}
+
+.outsec{
+  width: 100%;
+  height: auto;
+  float: left;
+ background-color: linen;
+}
+.fbo{
+  width: 80%;
+  height: auto;
+ margin: 0 auto;
+ padding-left: 100px;
+ padding-bottom: 50px;
+}
+
+.fbo img{
+  width: 200px;
+  height: 200px;
+}
+.column1 {
+  float: left;
+  width: 20%;
+  text-align: left;
+  padding: auto;
+  margin-left: 50px;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.inner2{
+  width: 100%;
+}
+.column2 {
+  float: left;
+  width: 20%;
+  text-align: left;
+  padding: auto;
+  margin-left: 50px;
+}
+.column3 {
+  float: left;
+  width: 20%;
+  text-align: left;
+  padding: auto;
+  margin-left: 50px;
+}
+.column4 {
+  float: left;
+  width: 20%;
+  text-align: left;
+  padding: auto;
+  margin-left: 50px;
+}
+.footer{
+  background-color: linen;
+  width: 100%;
+  padding-top: auto;
+  text-align: left;
+}

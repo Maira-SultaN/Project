@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  .outercontainer{
+    width: 100%;
+    background-color: linen;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+  }
+
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #FD6802;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-left: none;
+    cursor: pointer;
+    margin-top: 6px;
+  }
+  
+  form.example button:hover {
+    background: black;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .column1 {
+    float: left;
+    width: 20%;
+    text-align: left;
+    padding: auto;
+    margin-left: 50px;
+  }
+  
+ 
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .inner2{
+    width: 100%;
+  }
+  .column2 {
+    float: left;
+    width: 20%;
+    text-align: left;
+    padding: auto;
+    margin-left: 40px;
+  }
+  .column3 {
+    float: left;
+    width: 20%;
+    text-align: left;
+    padding: 0;
+    margin-left: 30px;
+  }
+  .column4 {
+    float: left;
+    width: 20%;
+    text-align: left;
+    padding: auto;
+   margin-left: 40px;
+  }
+  .footer{
+    background-color: linen;
+    width: 100%;
+    padding: auto;
+    text-align: left;
+    font-size: 20px;
+  }
+  .navbar{
+    background-color: linen;
+    border-radius: 30px;
+    width: 100%;
+    
+  }
+  .navbar ul{
+    overflow: auto;
+    text-align: center;
+  }
+  .navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+    
+  }
+  .navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: black;
+  }
+  .navbar li a:hover{
+    color: #FD6802
+  }
+  .search{
+    float: right;
+    color: white;
+    padding: 5px 100px;
+  }
+  .navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 180px;
+  }
